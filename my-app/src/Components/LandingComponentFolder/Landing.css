@@ -1,0 +1,25 @@
+.home-content{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 800px;
+    margin: 50px auto;
+    align-items: center;
+}
+
+.home-content .landing-img img{
+    max-width: 400px;
+    max-width: 350px;        
+}
+
+.home-content .landing-content{
+        margin: auto;  
+        color: #006238; 
+        font-size: 2rem;
+        text-align: center;
+}
+
+.home-content .landing-content button{
+    border-radius: 5px;
+    padding: 5px 20px;
+    text-align: center;
+}
