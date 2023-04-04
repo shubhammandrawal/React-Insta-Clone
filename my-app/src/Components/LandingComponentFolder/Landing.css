@@ -4,6 +4,7 @@
     width: 800px;
     margin: 50px auto;
     align-items: center;
+    border: 1px solid #ccc;
 }
 
 .home-content .landing-img img{
