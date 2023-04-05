@@ -1,6 +1,6 @@
 import React from "react";
-import circle from "../images/icon.svg";
-import camera from "../images/camera.png";
+import circle from "../../../images/icon.svg";
+import camera from "../../../images/camera.png";
 import './header.css'
 
 

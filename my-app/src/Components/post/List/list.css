@@ -1,0 +1,37 @@
+.card-container{
+    display: block;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 400px;
+    margin: 30px auto;
+    border: 1px solid #ccc;
+}
+
+
+.card-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+.card-header .card-head-content p{
+    margin: 5px;
+}
+
+.image-container img{
+    width: 100%;
+}
+
+.card-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+.card-footer .card-footer-icon img{
+    margin: 10px;
+}
+
+
