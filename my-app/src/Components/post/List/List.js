@@ -13,7 +13,7 @@ export default function List(){
         <card className="card-container">
             <div className="card-header">
                 <div className="card-head-content">
-                    <p>Rahul</p>
+                    <h3>Rahul</h3>
                     <p>Munnar</p>
                 </div>
                 <div className="card-head-icon">

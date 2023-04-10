@@ -5,6 +5,7 @@
     width: 400px;
     margin: 30px auto;
     border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 
@@ -15,8 +16,15 @@
     margin: 0 10px;
 }
 
-.card-header .card-head-content p{
+.card-header .card-head-content{
     margin: 5px;
+}
+.card-header .card-head-content p{
+    margin: 0;
+}
+
+.card-header .card-head-content h3{
+    margin: 0;
 }
 
 .image-container img{
