@@ -8,17 +8,17 @@ import AppHeader from "../Header/Header";
 import { PostList } from "../../../Context/PostContext";
 
 export default function List(){
-
-    const {posts}=useContext(PostList)
-
     const today= new Date().toLocaleDateString();
+    const {posts} = useContext(PostList)
     return<>
         <AppHeader />
-        <card className="card-container">
-            { posts.length==0 ? <h3>No Post available...</h3> :
-            posts.map(post=>{
-                    return<>
-                       <div className="card-header" key={post.id}>
+        <card>
+            { posts.length === 0 ? <h3>No post available...</h3> : 
+        posts.map(post => { 
+
+return <>
+    <card className="list-post-container">
+            <div className="card-header" key={post.id}>
                 <div className="card-head-content">
                     <h3>{post.name}</h3>
                     <p>{post.location}</p>
@@ -39,6 +39,7 @@ export default function List(){
                     {today}
                 </div>
             </div>
+            </card>
             </>
             })}
         </card>

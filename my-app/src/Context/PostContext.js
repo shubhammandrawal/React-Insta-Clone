@@ -21,5 +21,4 @@ return <PostList.Provider value={{
 }}>
     {children}
 </PostList.Provider>
-
 }
