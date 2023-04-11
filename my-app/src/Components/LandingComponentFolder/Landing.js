@@ -12,7 +12,7 @@ export default function LandingPage(){
             </div>
             <div className="landing-content">
                 <h2>10 Team 04</h2>
-                <Link to={"New"}>
+                <Link to={"/post/new"}>
                     <button>Enter</button>    
                 </Link>  
             </div>

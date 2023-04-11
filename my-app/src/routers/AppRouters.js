@@ -10,8 +10,9 @@ export default function AppRouter(){
     <BrowserRouter>
     <Routes>
         <Route path='/' element={<LandingPage />} />
-        <Route path='/new' element={<NewPost />} />  
-        <Route path='/all' element={<List />} />          
+        <Route path='/post/new' element={<NewPost />} />  
+        <Route path='/post/all' element={<List />} />       
+               
         {/* <Route path='/post' element={<PostView />}>
             
         </Route> */}

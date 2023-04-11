@@ -2,6 +2,7 @@ import React from "react";
 import circle from "../../../images/icon.svg";
 import camera from "../../../images/camera.png";
 import './header.css'
+import { Link } from "react-router-dom";
 
 
 export default function AppHeader(){
@@ -12,7 +13,9 @@ export default function AppHeader(){
                 <p>INSTACLONE</p>
             </div>
             <div className="camera">
-                <img src={camera} alt="camera-icon" />
+                <Link to="/post/new">
+                    <img src={camera} alt="camera-icon" />
+                </Link>
             </div>
         </navbar>
     </>

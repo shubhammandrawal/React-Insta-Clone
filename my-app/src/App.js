@@ -1,11 +1,14 @@
 import './App.css';
+import PostContext from './Context/PostContext';
 import AppRouter from './routers/AppRouters';
 
 function App() {
   return (
-    <div>   
-      <AppRouter />
-     </div>  
+    <PostContext>
+      <div>   
+        <AppRouter />
+      </div>  
+     </PostContext>
   );
 }
 
